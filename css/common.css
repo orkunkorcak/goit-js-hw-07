@@ -25,6 +25,5 @@ list-style: none;
    display: flex;   
   width: 360px;
   height: 300px;
-  gap: 24px;
   margin-bottom: 24px;
 }
