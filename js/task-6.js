@@ -10,9 +10,10 @@ const destroybtn = document.querySelector(".destroy");
 const boxes = document.querySelector("#boxes");
 
 function createBoxes(amount) {
+  boxes.innerHTML = "";
   let size = 30;
   let box = [];
-  for (let i = 0; i <= amount; i++) {
+  for (let i = 0; i < amount; i++) {
     const addDiv = document.createElement("div");
     addDiv.style.width = `${size}px`;
     addDiv.style.height = `${size}px`;
